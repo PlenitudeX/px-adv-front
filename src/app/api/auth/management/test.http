@@ -1,0 +1,13 @@
+### Get na api/auth/management
+GET http://localhost:3000/api/auth/management?userId=google-oauth2|111198725959277536712
+
+### Atualizar na api/auth/management
+PUT http://localhost:3000/api/auth/management?userId=google-oauth2|111198725959277536712
+Content-Type: application/json
+
+{
+   "tipo_cargo": "attendant"
+}
+
+### Deletar na api/auth/management
+DELETE http://localhost:3000/api/auth/management?userId=google-oauth2|111198725959277536712
