@@ -11,7 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        oab: {
+          blue: "#1b569e",
+        },
       },
+      fontFamily: {
+        oab: ["'league_gothicregular',Arial,helvetica,sans-serif"]
+      }
     },
   },
   plugins: [],
